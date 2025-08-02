@@ -1,0 +1,46 @@
+/* polls/static/polls/style.css */
+
+li a {
+    color: green;
+}
+
+body {
+    background: white no-repeat center top;
+    text-align: center;
+    padding-top: 40px; /* Space above image for heading + question */
+    font-family: Arial, sans-serif;
+}
+
+img.background {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto; /* top margin for spacing */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Make the poll question larger and bolder */
+a.poll-question {
+    font-size: 1.6rem;       /* larger text */
+    font-weight: 600;        /* slightly bold */
+    color: green;            /* keep it green */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Adjust image size and centering */
+img.background {
+    max-width: 80%;          /* reduce image width */
+    height: auto;
+    display: block;
+    margin: 0 auto;          /* centre the image */
+    border-radius: 8px;      /* optional: rounded corners */
+}
+
